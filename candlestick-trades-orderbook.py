@@ -38,8 +38,7 @@ app.layout = html.Div([html.H4(children='Exchange Info'),
                        html.Div([
                        html.Div([html.H3('Candlestick chart 🕯 📈 📉'),dcc.Graph(id='klines')],
                                 className="four columns"), 
-                       html.Div([html.H3('Ongoing trades 
-⚖️'),dcc.Graph(id='trades')],
+                       html.Div([html.H3('Ongoing trades ⚖️'),dcc.Graph(id='trades')],
                                  className="four columns"), 
                        html.Div([html.H3('Order book 📙 '),dcc.Graph(id='order-book')],
                                  className="four columns")],
