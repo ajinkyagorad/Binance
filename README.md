@@ -1,7 +1,7 @@
 # Binance
 Steps to get it working, 
-1. It uses [Binance API written in python](https://python-binance.readthedocs.io/en/latest/overview.html)
-  - Create binance account, generate API (key,secret)
+1. Requires [Binance API written in python](https://python-binance.readthedocs.io/en/latest/overview.html) and a Binance account.
+  - In the binance account, generate API (key,secret)
   - <code> pip install python-binance </code> 
 2. [Dash plotly](https://dash.plotly.com/installation) interactive plotting library which works around pandas dataframes, See [Dash](https://dash.plotly.com/installation)
   - <code> pip install dash</code>
@@ -22,4 +22,4 @@ Owning the asset by gaining it through another means and selling it in the marke
 ![BTCUSDT!](candlestick-trades-orderbook.png " ")
 
 
-Note: May work sluggishly.
+Note: May work sluggishly. Not affiliated with binance.
